@@ -1,0 +1,34 @@
+{
+  "validUser": {
+    "name": "ליאור אברהם",
+    "email": "lior@example.com",
+    "phone": "054-1234567",
+    "company": "Jones Automation Project",
+    "website": "https://my-portfolio.dev",
+    "employeeCount": "51-500"
+  },
+  "missingNameUser": {
+    "name": "",
+    "email": "test@example.com",
+    "phone": "050-1234567",
+    "company": "Test Corp",
+    "website": "https://example.com",
+    "employeeCount": "1-10"
+  },
+  "invalidEmailUser": {
+    "name": "משתמש בדיקה",
+    "email": "bad-email-format",
+    "phone": "052-1111111",
+    "company": "Test Corp",
+    "website": "https://example.com",
+    "employeeCount": "1-10"
+  },
+  "invalidUrlUser": {
+    "name": "משתמש בדיקה",
+    "email": "test@example.com",
+    "phone": "052-1111111",
+    "company": "Test Corp",
+    "website": "not-a-valid-url",
+    "employeeCount": "1-10"
+  }
+}
