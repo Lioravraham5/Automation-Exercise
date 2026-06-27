@@ -29,7 +29,7 @@ test.describe('Jones Automation - Contact Form Test Suite', () => {
     
     await formPage.submitForm();
 
-    // Assert Phase: Verify we landed on the correct page and the success message exists
+    // Assert Phase: Verify Awe landed on the correct page and the success message exists
     await thankYouPage.verifySuccess();
     console.log('Test 1 Passed: Successfully reached the Thank You page.');
   });
